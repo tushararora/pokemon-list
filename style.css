@@ -1,0 +1,21 @@
+html, body {
+  font-family: 'Helvetica', sans-serif;
+}
+
+li {
+  /* trbl (top right bottom left) */
+  padding: 10px 0 0 0;
+}
+
+#heading {
+  color: orange;
+}
+
+#add-pokemon {
+  /* trbl (top right bottom left) */
+  padding: 5px 10px 5px 10px;
+  color: white;
+  background-color: darkblue;
+  border: transparent;
+  cursor: pointer;
+}
