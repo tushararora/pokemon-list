@@ -21,10 +21,10 @@ button.addEventListener('click', function() {
   var pokemons = ['pikachu', 'charmander', 'bulbasaur', 'onix', 'psyduck', 'snorlax', 'jigglypuff']
 
   // Math.floor() 0.5 -> 0
-  // Math.random() -> [0, 1)
+  // Math.random() -> [0, 1) any number between 0 and 1
   // pokemons.length -> 7
 
-  // 0.5 * 7 -> Math.floor(3.5) -> 3
+  // 0.5 (random number) * 7(length of array) -> Math.floor(3.5) -> 3
   // pokemons[3] = 'onix'
   var pokemonName = pokemons[Math.floor(Math.random() * pokemons.length)]
 
